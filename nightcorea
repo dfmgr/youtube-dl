@@ -1,0 +1,9 @@
+# Save all music under Music directory in your home directory
+-o ~/Music/Nightcore/%(title)s.%(ext)s
+--audio-quality 320k
+--metadata-from-title "「Nightcore」→ (?P<title>.+)"
+--add-metadata
+--embed-thumbnail
+--mark-watched
+--ignore-errors
+-xic

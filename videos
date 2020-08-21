@@ -1,0 +1,5 @@
+# Save all videos under Videos directory in your home directory
+-o ~/Videos/ytdl/%(title)s.%(ext)s
+--metadata-from-title "(?P<artist>.+?) - (?P<title>.+)"
+--add-metadata
+-ic
