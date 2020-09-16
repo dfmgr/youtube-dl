@@ -4,3 +4,5 @@
 --metadata-from-title "(?P<artist>.+?) - (?P<title>.+)"
 --add-metadata
 --embed-thumbnail
+--no-warnings
+--ignore-errors
