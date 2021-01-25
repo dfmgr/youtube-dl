@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# @Author      : Jason
+# @Contact     : casjaysdev@casjay.net
+# @File        : ytstream
+# @Created     : Mon, Dec 31, 2019, 00:00 EST
+# @License     : WTFPL
+# @Copyright   : Copyright (c) CasjaysDev
+# @Description : youtube-dl to mplayer
+#
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+youtube-dl --quiet --no-warnings -f best "$1" -o - mplayer -cache 1024 -cache-min 10 -really-quiet - 2>/dev/null
+
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# End
