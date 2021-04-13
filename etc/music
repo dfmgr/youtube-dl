@@ -1,8 +1,5 @@
 # Save all music under Music directory in your home directory
 -o ~/Music/ytdl/%(title)s.%(ext)s
---audio-quality 320k
---audio-format mp3 
---extract-audio 
 --metadata-from-title "(?P<artist>.+?) - (?P<title>.+)"
 --add-metadata
 --embed-thumbnail
