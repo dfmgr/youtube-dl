@@ -5,7 +5,7 @@ youtube-dl is a command-line program to download videos from YouTube.com
 Automatic install/update:
 
 ```shell
-bash -c "$(curl -LSs https://github.com/dfmgr/youtube-dl/raw/master/install.sh)"
+bash -c "$(curl -LSs https://github.com/dfmgr/youtube-dl/raw/main/install.sh)"
 ```
 
 Manual install:
