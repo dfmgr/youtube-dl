@@ -36,7 +36,7 @@ fi
 # helper function
 __version() { app_version; }
 __help() {
-  app_help "Usage: ytstream  -  ytstream --version"  \
+  app_help "Usage: ytstream  -  ytstream --version" \
     "-v, --version          -  display version" \
     "-h, --help             -  display help"
 }
@@ -46,8 +46,8 @@ main() {
   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   # options
   case $1 in
-    -v | --version) __version ;;
-    -h | --help) __help ;;
+  -v | --version) __version ;;
+  -h | --help) __help ;;
   esac
   # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
   # Required app check
@@ -64,4 +64,3 @@ main "$@"
 exit $?
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # end
-
