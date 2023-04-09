@@ -1,7 +1,9 @@
 # Save all music under Music directory in your home directory
--o ~/Music/ytdl/%(title)s.%(ext)s
+-o ~/Music/ytdl/%(channel_id)/%(title)s.%(ext)s
 --metadata-from-title "(?P<artist>.+?) - (?P<title>.+)"
 --add-metadata
 --embed-thumbnail
+--extract-audio
 --no-warnings
 --ignore-errors
+--continue

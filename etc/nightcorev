@@ -1,4 +1,6 @@
 # Save all videos under Videos directory in your home directory
--o ~/Videos/Music/Nightcore/%(title)s.%(ext)s
+-o ~/Videos/Music/ytdl/%(channel_id)/%(title)s.%(ext)s
 --metadata-from-title "(?P<artist>.+?) - (?P<title>.+)"
 --add-metadata
+--ignore-errors 
+--continue

@@ -1,5 +1,8 @@
 # Save all videos under Videos directory in your home directory
--o ~/Videos/youtube-dl/%(title)s.%(ext)s
+-o ~/Videos/youtube-dl/%(channel_id)/%(title)s.%(ext)s
 --metadata-from-title "(?P<artist>.+?) - (?P<title>.+)"
 --add-metadata
--ic
+--embed-thumbnail
+--no-warnings
+--ignore-errors
+--continue
